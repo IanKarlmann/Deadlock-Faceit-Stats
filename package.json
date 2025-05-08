@@ -5,10 +5,10 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js",
+    "register": "node src/commands/register.js",
+    "start": "npm run register && node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint . --fix",
-    "register": "node src/commands/register.js"
+    "lint": "eslint . --fix"
   },
   "repository": {
     "type": "git",
