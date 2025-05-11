@@ -1,4 +1,5 @@
 import dotenv from 'dotenv';
+import { error } from '../utils/logger.js';
 dotenv.config();
 
 export const DISCORD_TOKEN = process.env.DISCORD_TOKEN;
