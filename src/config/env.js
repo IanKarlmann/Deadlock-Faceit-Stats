@@ -5,6 +5,7 @@ export const DISCORD_TOKEN = process.env.DISCORD_TOKEN;
 export const DEADLOCK_API_KEY = process.env.DEADLOCK_API_KEY;
 export const CLIENT_ID = process.env.CLIENT_ID;
 export const GUILD_ID = process.env.GUILD_ID;
+export const STEAM_API_KEY = process.env.STEAM_API_KEY;
 
 if (!DISCORD_TOKEN) {
 	error('Missing DISCORD_TOKEN in environment variables.');
